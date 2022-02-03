@@ -1,0 +1,13 @@
+{
+  "name": "netlify-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "eleventy --serve --input=./views --output=./dist",
+    "build:prod": "eleventy --input=./views --output=./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
