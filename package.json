@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "eleventy --serve --input=./views --output=./dist",
-    "build:prod": "npx eleventy --input=./views --output=./dist"
+    "build:prod": "eleventy --input=./views --output=./dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eleventy": "^1.0.6"
+    "@11ty/eleventy": "^1.0.0"
   }
 }
