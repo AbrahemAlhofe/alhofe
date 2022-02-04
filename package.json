@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "eleventy --serve --input=./views --output=./dist",
-    "build": "eleventy --input=./views --output=./dist"
+    "build:prod": "npx eleventy --input=./views --output=./dist"
   },
   "keywords": [],
   "author": "",
